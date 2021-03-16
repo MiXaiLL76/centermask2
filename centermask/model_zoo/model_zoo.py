@@ -17,7 +17,7 @@ class _ModelZooUrls(object):
     S3_PREFIX = "https://dl.dropbox.com/s/"
 
     # format: {config_path.yaml} -> model_id/model_final_{commit}.pkl
-    https://dl.dropbox.com/s/
+    # https://dl.dropbox.com/s/
     CONFIG_PATH_TO_URL_SUFFIX = {
         "centermask/centermask_lite_V_39_eSE_FPN_ms_4x.yaml": "uwc0ypa1jvco2bi/centermask2-lite-V-39-eSE-FPN-ms-4x.pth",
     }
