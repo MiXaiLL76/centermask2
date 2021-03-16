@@ -146,14 +146,14 @@ We provide backbone weights pretrained on ImageNet-1k dataset for detectron2.
 
 To train a model, run
 ```bash
-cd centermask2
+pip3 install git+https://github.com/MiXaiLL76/centermask2.git
 python train_net.py --config-file "configs/<config.yaml>"
 ```
 
 For example, to launch CenterMask training with VoVNetV2-39 backbone on 8 GPUs,
 one should execute:
 ```bash
-cd centermask2
+pip3 install git+https://github.com/MiXaiLL76/centermask2.git
 python train_net.py --config-file "configs/centermask/centermask_V_39_eSE_FPN_ms_3x.yaml" --num-gpus 8
 ```
 
