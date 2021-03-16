@@ -20,6 +20,8 @@ class _ModelZooUrls(object):
     # https://dl.dropbox.com/s/
     CONFIG_PATH_TO_URL_SUFFIX = {
         "centermask/centermask_lite_V_39_eSE_FPN_ms_4x.yaml": "uwc0ypa1jvco2bi/centermask2-lite-V-39-eSE-FPN-ms-4x.pth",
+        "centermask/centermask_lite_V_19_eSE_FPN_ms_4x.yaml ": "dret2ap7djty7mp/centermask2-lite-V-19-eSE-FPN-ms-4x.pth",
+        "centermask/centermask_V_39_eSE_FPN_ms_3x.yaml" : "tczecsdxt10uai5/centermask2-V-39-eSE-FPN-ms-3x.pth"
     }
 
 
