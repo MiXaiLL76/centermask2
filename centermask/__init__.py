@@ -3,5 +3,6 @@ from centermask import layers
 from centermask import evaluation
 from centermask import config
 from centermask import modeling
+from centermask import model_zoo
 
 __version__ = "0.1"
