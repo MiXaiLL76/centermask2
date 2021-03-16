@@ -10,3 +10,4 @@ MODEL:
 DATASETS:
   TRAIN: ("coco_2017_train_panoptic_separated",)
   TEST: ("coco_2017_val_panoptic_separated",)
+VERSION: 2
